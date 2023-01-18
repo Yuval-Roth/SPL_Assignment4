@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run all",
+            "type": "shell",
+            "command": "python3 initiate.py config.txt;python3 action.py action.txt",
+        }
+    ]
+}

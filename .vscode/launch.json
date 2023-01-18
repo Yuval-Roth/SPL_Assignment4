@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "initiate",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/initiate.py",
+            "args": ["${workspaceFolder}/config.txt"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "print",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/printdb.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "action",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/action.py",
+            "args": ["${workspaceFolder}/action.txt"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "run all",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/printdb.py",
+            "console": "integratedTerminal",
+            "preLaunchTask": "run all",
+            "justMyCode": true
+        }
+    ]
+}
